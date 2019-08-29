@@ -1,0 +1,37 @@
+ 
+#
+# Written by : DC-Transcript, Version 2003.06 -- May 20, 2003
+# Date       : Mon Aug  4 19:23:48 2003
+#
+
+
+
+
+set company {IHP Frankfurt (Oder) GmbH}
+set designer "Panagiotis_Anastasiadis"
+
+set cache_read /tmp
+set cache_write /tmp
+
+set text_print_command {lpr -P }
+
+set echo_include_commands false
+
+set view_script_submenu_items [concat  $view_script_submenu_items [list {remove all designs} {remove_design -designs}]]
+
+
+
+
+set search_path [list "/home/faculty/chsotiriou/IHP-Lib/IHP-0.25um/digital/synopsys"]
+
+set target_library sgc25a.max.db
+set symbol_library sgc25a.sdb
+set link_library [concat  "*" $target_library]
+
+# /* add I/O library: */
+set target_library [concat  $target_library sgc25a_io.max.db]
+set symbol_library [format "%s%s"  $symbol_library sgc25a_io.sdb]
+set link_library [concat  "*" $target_library]
+
+                                                                                                                                                                                                                                                                             
+

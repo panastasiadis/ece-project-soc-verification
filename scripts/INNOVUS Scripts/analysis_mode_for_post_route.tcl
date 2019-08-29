@@ -1,0 +1,1 @@
+setAnalysisMode -analysisType onChipVariation 
