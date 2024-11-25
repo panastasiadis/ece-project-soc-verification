@@ -1,4 +1,4 @@
-# Verifying a System-on-chip design usign CAD tools 
+# Verifying a System-on-chip design using CAD tools 
 This repository is about the main project of the course "VLSI System Design".  This course is a part of the undergraduate studies of University of Thessally - ECE Department located in Volos, Greece.
 
 Link to the Department's official site: https://www.e-ce.uth.gr/?lang=en
@@ -20,7 +20,7 @@ My name is Panagiotis Anastasiadis and this project was assigned to me during th
 
  If there are any sights of bad practices or ambiguities regarding the file structure, code quality, the general development of the projects or the entire repo management, please mind that this work attempt to strictly focus on the course nature and fit the requirements for the assignment set by it. Also, consider the lack of expertise or experience that comes along during the time of the undergraduate studies. 
 
-**In any case, this project was made on the purpose of learning to use the industrial CAD Tools and also the concepts of soc verification** 
+**In any case, this project was made on the purpose of learning to use the industrial CAD Tools and also the concepts of soc verification.**
 
 ## Project Overview
 
